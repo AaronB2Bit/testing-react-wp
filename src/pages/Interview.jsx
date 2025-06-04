@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Interview() {
   return (
     <div className="p-10 bg-gray-100">
@@ -10,6 +10,9 @@ function Interview() {
                     <div className="h-12 bg-black rotate-45 transform origin-top-left"></div>
                 </div>
             </div>
+        </div>
+        <div className="mt-12">
+            <Link to="/" className="text-sm bg-blue-500 text-white px-2 py-1 border shadow-md border-black rounded-md">Back to Home</Link>
         </div>
     </div>
   )
