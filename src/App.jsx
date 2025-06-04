@@ -6,6 +6,7 @@ function App() {
   return (
     <>
     <h1>Hello WordPress</h1>     
+    <p>this is a test</p>
     </>
   )
 }
